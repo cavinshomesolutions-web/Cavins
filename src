@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavins Home Solutions LLC - Philly Tough, Home Strong</title>
+    <meta name="description" content="Full rehab, appliance fixes, walk-in showers that wow. Orange County vibes, Eagles grit. Call 573-747-2959.">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; line-height: 1.6; }
+        header { background: #004C54; /* Eagles green */ color: white; padding: 20px; text-align: center; }
+        .logo { font-size: 2em; font-weight: bold; color: #FF6600; /* Orange */ margin: 0; }
+        .logo img { max-width: 200px; height: auto; } /* Drop your logo PNG here */
+        .tagline { font-style: italic; margin: 5px 0; }
+        nav { background: #333; padding: 10px; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav li { margin: 0 15px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #FF6600; }
+        .hero { background: #FF6600; color: white; padding: 40px 20px; text-align: center; }
+        .hero h1 { margin: 0; font-size: 2.5em; }
+        .cta { background: #004C54; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .cta:hover { background: #FF6600; }
+        section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+        .services { background: white; }
+        .services ul { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; list-style: none; padding: 0; }
+        .services li { background: #f9f9f9; padding: 20px; border-radius: 8px; text-align: center; }
+        .gallery { background: #f4f4f4; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+        .tip-box { background: #FF6600; color: white; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        form { max-width: 600px; margin: 0 auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #004C54; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #FF6600; }
+        footer { background: #333; color: white; text-align: center; padding: 20px; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2em; } nav ul { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo"><img src="YOUR_LOGO_URL_HERE.png" alt="Cavins Home Solutions LLC Logo"> Cavins Home Solutions LLC</h1>
+        <p class="tagline">Philly Tough | Open Daily | Full Rehab & Appliance Wizards</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="hero">
+        <h1>Got a Leaky Roof or a Stubborn Dishwasher? We Fix It Wild & Right.</h1>
+        <p>From stoves that ghost you to walk-in showers that steal the show—your home, our hustle.</p>
+        <a href="#contact" class="cta">Call Now: 573-747-2959</a>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our Services – No Job Too Wild</h2>
+        <ul>
+            <li><strong>Appliances</strong><br>Washers, dryers, fridges, stoves, dishwashers—troubleshoot like pros (tip: 70% of "dead" dryers? Lint trap rebellion).</li>
+            <li><strong>Plumbing & Fixtures</strong><br>Tubs, vanities, walk-in showers—love 'em. Leak? We hunt it down faster than a lost Eagles sock.</li>
+            <li><strong>Electrical</strong><br>Safe sparks, no shocks. Outlets, fixtures—code-compliant, wallet-friendly.</li>
+            <li><strong>Windows & Siding</strong><br>Seal the deal against Philly winters (or Missouri monsoons?).</li>
+            <li><strong>Roof Repairs</strong><br>Patch or full rehab—before it turns your attic into a swimming pool.</li>
+            <li><strong>Flooring & Cabinets</strong><br>Laminate to luxury—cabinets that hide your snack hoard perfectly.</li>
+        </ul>
+        <div class="tip-box">
+            <strong>Quick Learn: Stove Igniter Fail?</strong> Unplug, yank the broiler drawer, twist the tube—swap the ceramic igniter ($20 at Home Depot). Lights every time, or it's gas line gremlins (call us, $75 diagnostic).
+        </div>
+    </section>
+    
+    <section id="gallery" class="gallery">
+        <h2>Before/After – Real Jobs, Real Glow-Ups</h2>
+        <div class="gallery-grid">
+            <img src="https://photos.app.goo.gl/YOUR_FIRST_PIC_URL" alt="Walk-in Shower Rehab" title="From drab tub to spa vibes—$1,200 magic.">
+            <img src="https://photos.app.goo.gl/YOUR_SECOND_PIC_URL" alt="Cabinet Install" title="Kitchen chaos to chef's dream. Solo swing in 4 hours.">
+            <img src="https://photos.app.goo.gl/YOUR_THIRD_PIC_URL" alt="Before: Roof Leak" title="Drip city—fixed flat in a day.">
+            <img src="https://photos.app.goo.gl/YOUR_FOURTH_PIC_URL" alt="After: Fresh Flooring" title="Squeaky floors? Silent now, $3/sqft steal.">
+            <!-- Add more from your Drive—right-click > Get Link > Paste here -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Get Your Free Estimate – No BS</h2>
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST"> <!-- Free signup at formspree.io for Gmail forwarding -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Phone (Optional)">
+            <textarea name="message" placeholder="Job Deets: e.g., 'Dishwasher hums like a chainsaw + leaky roof'" rows="5" required></textarea>
+            <button type="submit">Send It – We'll Call Back Same Day</button>
+        </form>
+        <p style="text-align: center; margin-top: 20px;">Or hit us direct: <strong>573-747-2959</strong> | <a href="mailto:CavinsHomeSolutions@gmail.com" style="color: #FF6600;">CavinsHomeSolutions@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Cavins Home Solutions LLC | Open Every Damn Day | Philly Proud, Built to Last</p>
+    </footer>
+</body>
+</html>
+
